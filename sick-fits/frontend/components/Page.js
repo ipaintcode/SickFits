@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
@@ -10,8 +10,8 @@ class Page extends Component {
         <Header />
         {this.props.children}
       </div>
-    );
+    )
   }
 }
 
-export default Page;
+export default Page
